@@ -1,0 +1,24 @@
+{
+    "name": "vs/tourist",
+    "description": "PHP Tourist App",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Varazdat Stepanyan",
+            "email": "developervaryan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VS\\Tourist\\": "./src"
+        }
+    }
+}
